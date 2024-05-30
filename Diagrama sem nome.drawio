@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T20:19:18.330Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ra1eXzOoaFdMdKzyC_73" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T20:21:32.211Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="E_J-Mk0XK9Nnd8B6YT0h" version="24.4.10" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="607" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8PE0f_rZOpsU0MAKz3tB-1" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=120;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="20" y="20" width="250" height="510" as="geometry" />
+          <mxGeometry x="20" y="20" width="250" height="520" as="geometry" />
         </mxCell>
         <mxCell id="8PE0f_rZOpsU0MAKz3tB-5" value="Entity" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="20" y="20" width="120" height="30" as="geometry" />
@@ -25,13 +25,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8PE0f_rZOpsU0MAKz3tB-14" value="Eleitor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="420" width="160" height="88" as="geometry" />
+          <mxGeometry x="40" y="420" width="160" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="8PE0f_rZOpsU0MAKz3tB-15" value="# zonaEleitora: int&lt;div&gt;# titulo: String&lt;/div&gt;&lt;div&gt;# secao: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="8PE0f_rZOpsU0MAKz3tB-14" vertex="1">
-          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        <mxCell id="8PE0f_rZOpsU0MAKz3tB-15" value="# zonaEleitora: int&lt;div&gt;# titulo: String&lt;/div&gt;&lt;div&gt;# secao: int&lt;/div&gt;&lt;div&gt;# situacao: boolean&lt;/div&gt;&lt;div&gt;# multa: float&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="8PE0f_rZOpsU0MAKz3tB-14" vertex="1">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
         </mxCell>
         <mxCell id="8PE0f_rZOpsU0MAKz3tB-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="8PE0f_rZOpsU0MAKz3tB-14" vertex="1">
-          <mxGeometry y="80" width="160" height="8" as="geometry" />
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="8PE0f_rZOpsU0MAKz3tB-28" value="Pessoa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="210" width="160" height="128" as="geometry" />
@@ -97,7 +97,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-10" value="Database" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="240" width="240" height="230" as="geometry" />
+          <mxGeometry x="320" y="240" width="240" height="180" as="geometry" />
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-11" value="- eleitores: Map&amp;lt;String, DatabaseTableI&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xp5hAYhYeYCrnmnaeZw4-10">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -105,8 +105,8 @@
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xp5hAYhYeYCrnmnaeZw4-10">
           <mxGeometry y="52" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="xp5hAYhYeYCrnmnaeZw4-13" value="+ save (eleitor: Eleitor): void&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;findById ()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ findAll()&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ update &lt;span style=&quot;background-color: initial;&quot;&gt;(id: int, eleitor: Eleitor): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;delete (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id: int, eleitor: Eleitor&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getTable(eleitor: Eleitor): DatabaseTableI&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xp5hAYhYeYCrnmnaeZw4-10">
-          <mxGeometry y="60" width="240" height="170" as="geometry" />
+        <mxCell id="xp5hAYhYeYCrnmnaeZw4-13" value="+ save (eleitor: Eleitor): void&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;findById ()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ findAll()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ update &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(id: int, eleitor: Eleitor): void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;delete (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id: int, eleitor: Eleitor&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getTable(eleitor: Eleitor): DatabaseTableI&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xp5hAYhYeYCrnmnaeZw4-10">
+          <mxGeometry y="60" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-15" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.471;exitY=0.01;exitDx=0;exitDy=0;entryX=0.524;entryY=1.192;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="xp5hAYhYeYCrnmnaeZw4-10" target="xp5hAYhYeYCrnmnaeZw4-4">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -115,16 +115,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-16" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=120;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="20" y="560" width="390" height="460" as="geometry" />
+          <mxGeometry x="20" y="560" width="390" height="390" as="geometry" />
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-17" value="DAO" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="20" y="560" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xp5hAYhYeYCrnmnaeZw4-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;DAO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ save (eleitor: Eleitor): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;+ findById((id: int): Eleitor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ findAll()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ findAll(Predicate&amp;lt;Eleitor&amp;gt; filter): List&amp;lt;Eleitor&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ findAll(Comparator&amp;lt;Eleitor&amp;gt; comparator): List&amp;lt;Eleitor&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+update(eleitor: Eleitor): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete (eleitor: Eleitor: void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="610" width="330" height="250" as="geometry" />
+        <mxCell id="xp5hAYhYeYCrnmnaeZw4-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;DAO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ save (eleitor: Eleitor): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ findById((id: int): Eleitor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ findAll()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ findAll(Predicate&amp;lt;Eleitor&amp;gt; filter): List&amp;lt;Eleitor&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ findAll(Comparator&amp;lt;Eleitor&amp;gt; comparator): List&amp;lt;Eleitor&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+update(eleitor: Eleitor): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ delete (eleitor: Eleitor: void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="330" height="190" as="geometry" />
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-23" value="DAOException" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="150" y="940" width="110" height="50" as="geometry" />
+          <mxGeometry x="140" y="870" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-24" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.564;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xp5hAYhYeYCrnmnaeZw4-23" target="xp5hAYhYeYCrnmnaeZw4-22">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -133,7 +133,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-25" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=120;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="35" y="1100" width="775" height="460" as="geometry" />
+          <mxGeometry x="20" y="1070" width="775" height="460" as="geometry" />
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-26" value="View" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="35" y="1100" width="120" height="30" as="geometry" />
