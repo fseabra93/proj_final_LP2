@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T17:31:33.886Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="CBLtCzJOTjk8ajrHol23" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T18:14:01.162Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ckJcjNvculANN7HMDV3u" version="24.4.10" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="880" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8PE0f_rZOpsU0MAKz3tB-37" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=120;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="300" y="20" width="520" height="510" as="geometry" />
+          <mxGeometry x="300" y="20" width="520" height="470" as="geometry" />
         </mxCell>
         <mxCell id="8PE0f_rZOpsU0MAKz3tB-38" value="Database" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="300" y="20" width="120" height="30" as="geometry" />
@@ -97,16 +97,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-10" value="Database" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="232" width="190" height="170" as="geometry" />
+          <mxGeometry x="320" y="240" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-11" value="- eleitores: Map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xp5hAYhYeYCrnmnaeZw4-10">
-          <mxGeometry y="26" width="190" height="26" as="geometry" />
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xp5hAYhYeYCrnmnaeZw4-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xp5hAYhYeYCrnmnaeZw4-10">
-          <mxGeometry y="52" width="190" height="8" as="geometry" />
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="xp5hAYhYeYCrnmnaeZw4-13" value="+ save (eleitor: Eleitor): void&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;findById ()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ findAll()&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xp5hAYhYeYCrnmnaeZw4-10">
-          <mxGeometry y="60" width="190" height="110" as="geometry" />
+        <mxCell id="xp5hAYhYeYCrnmnaeZw4-13" value="+ save (eleitor: Eleitor): void&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;findById ()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ findAll()&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ update &lt;span style=&quot;background-color: initial;&quot;&gt;(id: int, eleitor: Eleitor): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;delete (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id: int, eleitor: Eleitor&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xp5hAYhYeYCrnmnaeZw4-10">
+          <mxGeometry y="60" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xp5hAYhYeYCrnmnaeZw4-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.696;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xp5hAYhYeYCrnmnaeZw4-10" target="8PE0f_rZOpsU0MAKz3tB-52">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="541" y="94" as="sourcePoint" />
+            <mxPoint x="589" y="93" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
